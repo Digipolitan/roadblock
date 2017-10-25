@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Roadblock.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/RoadblockSample-iOS/RoadblockSample-iOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/RoadblockSample-tvOS/RoadblockSample-tvOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="RoadblockSample_iOS" customModuleProvider="target">
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="title" value="ViewController"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="emailTextField" destination="V4p-Ng-66u" id="tI3-cD-baB"/>
+                <outlet property="passwordTextField" destination="ROx-FR-TOh" id="05r-10-zRs"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V4p-Ng-66u">
+                    <rect key="frame" x="20" y="70" width="335" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ROx-FR-TOh">
+                    <rect key="frame" x="20" y="110" width="335" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e9v-pF-ysb">
+                    <rect key="frame" x="20" y="230" width="335" height="30"/>
+                    <state key="normal" title="Validate"/>
+                    <connections>
+                        <action selector="validateButtonClicked" destination="-1" eventType="touchUpInside" id="dhR-gg-fMs"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ROx-FR-TOh" firstAttribute="leading" secondItem="V4p-Ng-66u" secondAttribute="leading" id="3Yj-Dm-ovl"/>
+                <constraint firstItem="V4p-Ng-66u" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="Ejh-EA-w22"/>
+                <constraint firstAttribute="trailing" secondItem="V4p-Ng-66u" secondAttribute="trailing" constant="20" id="M2w-UW-EV4"/>
+                <constraint firstItem="V4p-Ng-66u" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="MEo-Z6-NKJ"/>
+                <constraint firstItem="e9v-pF-ysb" firstAttribute="top" secondItem="ROx-FR-TOh" secondAttribute="bottom" constant="90" id="Twq-3o-gCO"/>
+                <constraint firstItem="ROx-FR-TOh" firstAttribute="trailing" secondItem="V4p-Ng-66u" secondAttribute="trailing" id="XoJ-dx-gw8"/>
+                <constraint firstItem="ROx-FR-TOh" firstAttribute="top" secondItem="V4p-Ng-66u" secondAttribute="bottom" constant="10" id="aQD-uT-ays"/>
+                <constraint firstItem="e9v-pF-ysb" firstAttribute="trailing" secondItem="ROx-FR-TOh" secondAttribute="trailing" id="j5W-nZ-ecM"/>
+                <constraint firstItem="e9v-pF-ysb" firstAttribute="leading" secondItem="ROx-FR-TOh" secondAttribute="leading" id="l18-F2-viz"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
