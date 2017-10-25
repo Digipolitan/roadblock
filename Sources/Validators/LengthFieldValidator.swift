@@ -10,7 +10,7 @@ import Foundation
 
 public struct MinLengthFieldValidator: FieldValidator {
 
-    public static var failureKey: String! = "errors.validator.min_length_%d"
+    public static var failureKey: String! = "errors.validator.min_length"
 
     private let length: Int
 
@@ -31,7 +31,7 @@ public struct MinLengthFieldValidator: FieldValidator {
 
 public struct MaxLengthFieldValidator: FieldValidator {
 
-    public static var failureKey: String! = "errors.validator.max_length_%d"
+    public static var failureKey: String! = "errors.validator.max_length"
 
     private let length: Int
 

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import LocalizationToolkit
 
 public class FieldValidators {
 

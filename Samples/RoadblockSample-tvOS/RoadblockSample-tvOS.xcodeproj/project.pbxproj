@@ -198,9 +198,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-RoadblockSample-tvOS/Pods-Samples-RoadblockSample-tvOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LocalizationToolkit-tvOS/LocalizationToolkit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocalizationToolkit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

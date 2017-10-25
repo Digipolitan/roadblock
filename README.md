@@ -30,8 +30,8 @@ First to catch errors you need to add the following keys to your **Localizable.s
 ```strings
 "errors.validator.required" = "Missing required field";
 "errors.validator.email" = "Invalid email";
-"errors.validator.min_length_%d" = "Minimum %1$d characters";
-"errors.validator.max_length_%d" = "Maximum de %1$d characters";
+"errors.validator.min_length" = "Minimum %1$d characters";
+"errors.validator.max_length" = "Maximum de %1$d characters";
 ```
 
 After that, you need to implement the `FormDelegate` protocol

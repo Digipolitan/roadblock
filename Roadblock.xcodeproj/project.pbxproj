@@ -12,7 +12,6 @@
 		7F2BC6021FA0B296009BD39A /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB11FA0B0BF00D7B40A /* Form.swift */; };
 		7F2BC6031FA0B2A3009BD39A /* FormError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB01FA0B0BF00D7B40A /* FormError.swift */; };
 		7F2BC6041FA0B2A3009BD39A /* FormTextFieldDelegateChainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB21FA0B0BF00D7B40A /* FormTextFieldDelegateChainable.swift */; };
-		7F2BC6051FA0B2A3009BD39A /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB31FA0B0BF00D7B40A /* String+Localization.swift */; };
 		7F2BC6061FA0B2A3009BD39A /* FieldTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CAC1FA0B0BF00D7B40A /* FieldTransformer.swift */; };
 		7F2BC6071FA0B2A3009BD39A /* FieldTransformers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CAD1FA0B0BF00D7B40A /* FieldTransformers.swift */; };
 		7F2BC6081FA0B2A3009BD39A /* TrimFieldTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CAE1FA0B0BF00D7B40A /* TrimFieldTransformer.swift */; };
@@ -30,7 +29,6 @@
 		7FE56CBF1FA0B0BF00D7B40A /* FormError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB01FA0B0BF00D7B40A /* FormError.swift */; };
 		7FE56CC01FA0B0BF00D7B40A /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB11FA0B0BF00D7B40A /* Form.swift */; };
 		7FE56CC11FA0B0BF00D7B40A /* FormTextFieldDelegateChainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB21FA0B0BF00D7B40A /* FormTextFieldDelegateChainable.swift */; };
-		7FE56CC21FA0B0BF00D7B40A /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB31FA0B0BF00D7B40A /* String+Localization.swift */; };
 		7FE56CC31FA0B0BF00D7B40A /* FieldValidators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB51FA0B0BF00D7B40A /* FieldValidators.swift */; };
 		7FE56CC41FA0B0BF00D7B40A /* LengthFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB61FA0B0BF00D7B40A /* LengthFieldValidator.swift */; };
 		7FE56CC51FA0B0BF00D7B40A /* ValidatorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB71FA0B0BF00D7B40A /* ValidatorError.swift */; };
@@ -78,7 +76,6 @@
 		7FE56CB01FA0B0BF00D7B40A /* FormError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormError.swift; sourceTree = "<group>"; };
 		7FE56CB11FA0B0BF00D7B40A /* Form.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
 		7FE56CB21FA0B0BF00D7B40A /* FormTextFieldDelegateChainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTextFieldDelegateChainable.swift; sourceTree = "<group>"; };
-		7FE56CB31FA0B0BF00D7B40A /* String+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
 		7FE56CB51FA0B0BF00D7B40A /* FieldValidators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldValidators.swift; sourceTree = "<group>"; };
 		7FE56CB61FA0B0BF00D7B40A /* LengthFieldValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LengthFieldValidator.swift; sourceTree = "<group>"; };
 		7FE56CB71FA0B0BF00D7B40A /* ValidatorError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatorError.swift; sourceTree = "<group>"; };
@@ -223,7 +220,6 @@
 				7FE56CB11FA0B0BF00D7B40A /* Form.swift */,
 				7FE56CB01FA0B0BF00D7B40A /* FormError.swift */,
 				7FE56CB21FA0B0BF00D7B40A /* FormTextFieldDelegateChainable.swift */,
-				7FE56CB31FA0B0BF00D7B40A /* String+Localization.swift */,
 				7FE56CAB1FA0B0BF00D7B40A /* Transformers */,
 				7FE56CB41FA0B0BF00D7B40A /* Validators */,
 				A3169E751DE083D900BABAFD /* Roadblock.h */,
@@ -448,9 +444,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tests-RoadblockTests-tvOS/Pods-Tests-RoadblockTests-tvOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LocalizationToolkit-tvOS/LocalizationToolkit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocalizationToolkit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -496,9 +495,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tests-RoadblockTests-iOS/Pods-Tests-RoadblockTests-iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LocalizationToolkit-iOS/LocalizationToolkit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocalizationToolkit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -650,7 +652,6 @@
 				7FE56CC51FA0B0BF00D7B40A /* ValidatorError.swift in Sources */,
 				7FE56CBB1FA0B0BF00D7B40A /* FieldTransformer.swift in Sources */,
 				7FE56CC01FA0B0BF00D7B40A /* Form.swift in Sources */,
-				7FE56CC21FA0B0BF00D7B40A /* String+Localization.swift in Sources */,
 				7FE56CC81FA0B0BF00D7B40A /* RequiredFieldValidator.swift in Sources */,
 				7FE56CC71FA0B0BF00D7B40A /* FieldValidator.swift in Sources */,
 			);
@@ -679,7 +680,6 @@
 				7F2BC60C1FA0B2A3009BD39A /* ValidatorError.swift in Sources */,
 				7F2BC6061FA0B2A3009BD39A /* FieldTransformer.swift in Sources */,
 				7F2BC6021FA0B296009BD39A /* Form.swift in Sources */,
-				7F2BC6051FA0B2A3009BD39A /* String+Localization.swift in Sources */,
 				7F2BC60F1FA0B2A3009BD39A /* RequiredFieldValidator.swift in Sources */,
 				7F2BC60E1FA0B2A3009BD39A /* FieldValidator.swift in Sources */,
 			);
