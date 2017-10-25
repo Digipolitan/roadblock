@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name = "Roadblock"
 s.version = "1.0.0"
-s.summary = "This is a summary."
+s.summary = "Roadblock is a simple way to check forms verifications"
 s.homepage = "https://github.com/Digipolitan/roadblock"
 s.authors = "Digipolitan"
 s.source = { :git => "https://github.com/Digipolitan/roadblock.git", :tag => "v#{s.version}" }
