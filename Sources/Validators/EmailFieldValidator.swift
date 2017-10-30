@@ -10,7 +10,7 @@ import Foundation
 
 public struct EmailFieldValidator: FieldValidator {
 
-    public static var failureKey: String! = "errors.validator.email"
+    public static let failureKey: String! = "errors.validator.email"
 
     public static let shared = EmailFieldValidator()
     private let predicate: NSPredicate

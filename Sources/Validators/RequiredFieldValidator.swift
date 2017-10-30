@@ -12,7 +12,7 @@ public struct RequiredFieldValidator: FieldValidator {
 
     public static let shared = RequiredFieldValidator()
 
-    public static var failureKey: String! = "errors.validator.required"
+    public static let failureKey: String! = "errors.validator.required"
 
     private init() {
        FieldValidators.Localization.checkFailureKey(validator: RequiredFieldValidator.self)
