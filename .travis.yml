@@ -13,6 +13,8 @@ before_install:
   - gem install bundler
   - brew update
   - bundle install && brew bundle
+  - bunble exec pod repo remove master
+  - bundle exec pod setup
 script:
   - bundle exec fastlane run_tests
 after_success:
