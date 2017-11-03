@@ -21,7 +21,7 @@ public struct EmailFieldValidator: FieldValidator {
     }
 
     public func validate(field: FormField, in form: Form) throws {
-        guard let str = field.value as? String, str.characters.count > 0 else {
+        guard let str = field.value as? String, str.count > 0 else {
             return // Skip empty field
         }
         guard predicate.evaluate(with: str) else {

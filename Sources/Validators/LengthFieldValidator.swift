@@ -20,10 +20,10 @@ public struct MinLengthFieldValidator: FieldValidator {
     }
 
     public func validate(field: FormField, in form: Form) throws {
-        guard let str = field.value as? String, str.characters.count > 0 else {
+        guard let str = field.value as? String, str.count > 0 else {
             return // Skip empty field
         }
-        guard str.characters.count >= self.length else {
+        guard str.count >= self.length else {
             throw FieldValidators.Localization.error(validator: MinLengthFieldValidator.self, arguments: self.length)
         }
     }
@@ -41,10 +41,10 @@ public struct MaxLengthFieldValidator: FieldValidator {
     }
 
     public func validate(field: FormField, in form: Form) throws {
-        guard let str = field.value as? String, str.characters.count > 0 else {
+        guard let str = field.value as? String, str.count > 0 else {
             return // Skip empty field
         }
-        guard str.characters.count <= self.length else {
+        guard str.count <= self.length else {
             throw FieldValidators.Localization.error(validator: MaxLengthFieldValidator.self, arguments: self.length)
         }
     }
