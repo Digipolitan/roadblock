@@ -1,11 +1,11 @@
 PODS:
-  - LocalizationToolkit (1.0.0)
+  - LocalizationToolkit (1.0.1)
 
 DEPENDENCIES:
   - LocalizationToolkit (~> 1.0)
 
 SPEC CHECKSUMS:
-  LocalizationToolkit: 10c73d4c073c2c1d2fd1cbcb811ecadcbeaf5535
+  LocalizationToolkit: 04346b846f51963621d0aec2de64fb724f4234b4
 
 PODFILE CHECKSUM: 89af386de312453441807ebbdd5db872cf31caca
 

@@ -9,36 +9,36 @@
 /* Begin PBXBuildFile section */
 		143D2B80E40F9075BB3893AB /* Pods_Tests_RoadblockTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C353D7789B29657D1BB5DB45 /* Pods_Tests_RoadblockTests_tvOS.framework */; };
 		2FD66C507EE3B6529981EDC8 /* Pods_Frameworks_Roadblock_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4589136C0F0314736A7DC29 /* Pods_Frameworks_Roadblock_tvOS.framework */; };
-		7F2BC6021FA0B296009BD39A /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB11FA0B0BF00D7B40A /* Form.swift */; };
-		7F2BC6031FA0B2A3009BD39A /* FormError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB01FA0B0BF00D7B40A /* FormError.swift */; };
-		7F2BC6041FA0B2A3009BD39A /* FormTextFieldDelegateChainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB21FA0B0BF00D7B40A /* FormTextFieldDelegateChainable.swift */; };
-		7F2BC6061FA0B2A3009BD39A /* FieldTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CAC1FA0B0BF00D7B40A /* FieldTransformer.swift */; };
-		7F2BC6071FA0B2A3009BD39A /* FieldTransformers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CAD1FA0B0BF00D7B40A /* FieldTransformers.swift */; };
-		7F2BC6081FA0B2A3009BD39A /* TrimFieldTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CAE1FA0B0BF00D7B40A /* TrimFieldTransformer.swift */; };
-		7F2BC6091FA0B2A3009BD39A /* EmptyIsNilFieldTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CAF1FA0B0BF00D7B40A /* EmptyIsNilFieldTransformer.swift */; };
-		7F2BC60A1FA0B2A3009BD39A /* FieldValidators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB51FA0B0BF00D7B40A /* FieldValidators.swift */; };
-		7F2BC60B1FA0B2A3009BD39A /* LengthFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB61FA0B0BF00D7B40A /* LengthFieldValidator.swift */; };
-		7F2BC60C1FA0B2A3009BD39A /* ValidatorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB71FA0B0BF00D7B40A /* ValidatorError.swift */; };
-		7F2BC60D1FA0B2A3009BD39A /* EmailFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB81FA0B0BF00D7B40A /* EmailFieldValidator.swift */; };
-		7F2BC60E1FA0B2A3009BD39A /* FieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB91FA0B0BF00D7B40A /* FieldValidator.swift */; };
-		7F2BC60F1FA0B2A3009BD39A /* RequiredFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CBA1FA0B0BF00D7B40A /* RequiredFieldValidator.swift */; };
-		7FE56CBB1FA0B0BF00D7B40A /* FieldTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CAC1FA0B0BF00D7B40A /* FieldTransformer.swift */; };
-		7FE56CBC1FA0B0BF00D7B40A /* FieldTransformers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CAD1FA0B0BF00D7B40A /* FieldTransformers.swift */; };
-		7FE56CBD1FA0B0BF00D7B40A /* TrimFieldTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CAE1FA0B0BF00D7B40A /* TrimFieldTransformer.swift */; };
-		7FE56CBE1FA0B0BF00D7B40A /* EmptyIsNilFieldTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CAF1FA0B0BF00D7B40A /* EmptyIsNilFieldTransformer.swift */; };
-		7FE56CBF1FA0B0BF00D7B40A /* FormError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB01FA0B0BF00D7B40A /* FormError.swift */; };
-		7FE56CC01FA0B0BF00D7B40A /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB11FA0B0BF00D7B40A /* Form.swift */; };
-		7FE56CC11FA0B0BF00D7B40A /* FormTextFieldDelegateChainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB21FA0B0BF00D7B40A /* FormTextFieldDelegateChainable.swift */; };
-		7FE56CC31FA0B0BF00D7B40A /* FieldValidators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB51FA0B0BF00D7B40A /* FieldValidators.swift */; };
-		7FE56CC41FA0B0BF00D7B40A /* LengthFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB61FA0B0BF00D7B40A /* LengthFieldValidator.swift */; };
-		7FE56CC51FA0B0BF00D7B40A /* ValidatorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB71FA0B0BF00D7B40A /* ValidatorError.swift */; };
-		7FE56CC61FA0B0BF00D7B40A /* EmailFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB81FA0B0BF00D7B40A /* EmailFieldValidator.swift */; };
-		7FE56CC71FA0B0BF00D7B40A /* FieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CB91FA0B0BF00D7B40A /* FieldValidator.swift */; };
-		7FE56CC81FA0B0BF00D7B40A /* RequiredFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE56CBA1FA0B0BF00D7B40A /* RequiredFieldValidator.swift */; };
 		A3169DBA1DE05E8300BABAFD /* Roadblock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DB01DE05E8300BABAFD /* Roadblock.framework */; };
 		A3169DF81DE0718900BABAFD /* Roadblock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DEF1DE0718900BABAFD /* Roadblock.framework */; };
-		A3169E761DE083D900BABAFD /* Roadblock.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* Roadblock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3169E781DE083D900BABAFD /* Roadblock.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* Roadblock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A370DEEA1FB0D6E9000FEDED /* FieldTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEDB1FB0D6E9000FEDED /* FieldTransformer.swift */; };
+		A370DEEB1FB0D6E9000FEDED /* FieldTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEDB1FB0D6E9000FEDED /* FieldTransformer.swift */; };
+		A370DEEC1FB0D6E9000FEDED /* FieldTransformers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEDC1FB0D6E9000FEDED /* FieldTransformers.swift */; };
+		A370DEED1FB0D6E9000FEDED /* FieldTransformers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEDC1FB0D6E9000FEDED /* FieldTransformers.swift */; };
+		A370DEEE1FB0D6E9000FEDED /* TrimFieldTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEDD1FB0D6E9000FEDED /* TrimFieldTransformer.swift */; };
+		A370DEEF1FB0D6E9000FEDED /* TrimFieldTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEDD1FB0D6E9000FEDED /* TrimFieldTransformer.swift */; };
+		A370DEF01FB0D6E9000FEDED /* EmptyIsNilFieldTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEDE1FB0D6E9000FEDED /* EmptyIsNilFieldTransformer.swift */; };
+		A370DEF11FB0D6E9000FEDED /* EmptyIsNilFieldTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEDE1FB0D6E9000FEDED /* EmptyIsNilFieldTransformer.swift */; };
+		A370DEF21FB0D6E9000FEDED /* FormError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEDF1FB0D6E9000FEDED /* FormError.swift */; };
+		A370DEF31FB0D6E9000FEDED /* FormError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEDF1FB0D6E9000FEDED /* FormError.swift */; };
+		A370DEF41FB0D6E9000FEDED /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEE01FB0D6E9000FEDED /* Form.swift */; };
+		A370DEF51FB0D6E9000FEDED /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEE01FB0D6E9000FEDED /* Form.swift */; };
+		A370DEF61FB0D6E9000FEDED /* FieldValidators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEE21FB0D6E9000FEDED /* FieldValidators.swift */; };
+		A370DEF71FB0D6E9000FEDED /* FieldValidators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEE21FB0D6E9000FEDED /* FieldValidators.swift */; };
+		A370DEF81FB0D6E9000FEDED /* LengthFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEE31FB0D6E9000FEDED /* LengthFieldValidator.swift */; };
+		A370DEF91FB0D6E9000FEDED /* LengthFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEE31FB0D6E9000FEDED /* LengthFieldValidator.swift */; };
+		A370DEFA1FB0D6E9000FEDED /* ValidatorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEE41FB0D6E9000FEDED /* ValidatorError.swift */; };
+		A370DEFB1FB0D6E9000FEDED /* ValidatorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEE41FB0D6E9000FEDED /* ValidatorError.swift */; };
+		A370DEFC1FB0D6E9000FEDED /* EmailFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEE51FB0D6E9000FEDED /* EmailFieldValidator.swift */; };
+		A370DEFD1FB0D6E9000FEDED /* EmailFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEE51FB0D6E9000FEDED /* EmailFieldValidator.swift */; };
+		A370DEFE1FB0D6E9000FEDED /* FieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEE61FB0D6E9000FEDED /* FieldValidator.swift */; };
+		A370DEFF1FB0D6E9000FEDED /* FieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEE61FB0D6E9000FEDED /* FieldValidator.swift */; };
+		A370DF001FB0D6E9000FEDED /* RequiredFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEE71FB0D6E9000FEDED /* RequiredFieldValidator.swift */; };
+		A370DF011FB0D6E9000FEDED /* RequiredFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEE71FB0D6E9000FEDED /* RequiredFieldValidator.swift */; };
+		A370DF021FB0D6E9000FEDED /* FormTextFieldDelegateChainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEE81FB0D6E9000FEDED /* FormTextFieldDelegateChainable.swift */; };
+		A370DF031FB0D6E9000FEDED /* FormTextFieldDelegateChainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEE81FB0D6E9000FEDED /* FormTextFieldDelegateChainable.swift */; };
+		A370DF041FB0D6E9000FEDED /* Roadblock.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEE91FB0D6E9000FEDED /* Roadblock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A370DF051FB0D6E9000FEDED /* Roadblock.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEE91FB0D6E9000FEDED /* Roadblock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A38EF2CA1DECF97000637484 /* RoadblockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* RoadblockTests.swift */; };
 		A38EF2CB1DECF97000637484 /* RoadblockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* RoadblockTests.swift */; };
 		A4E8DDD700C232DE4C6BBABB /* Pods_Frameworks_Roadblock_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DFC7D261B8E9524A5EE0DAB /* Pods_Frameworks_Roadblock_iOS.framework */; };
@@ -69,19 +69,6 @@
 		46621233970BDC0ECDE2CB21 /* Pods-Tests-RoadblockTests-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-RoadblockTests-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-RoadblockTests-iOS/Pods-Tests-RoadblockTests-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		46F734B074BD538864E51397 /* Pods_Tests_RoadblockTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_RoadblockTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF5AC2F0A0416800FD044AC /* Pods-Frameworks-Roadblock-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-Roadblock-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-Roadblock-tvOS/Pods-Frameworks-Roadblock-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		7FE56CAC1FA0B0BF00D7B40A /* FieldTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldTransformer.swift; sourceTree = "<group>"; };
-		7FE56CAD1FA0B0BF00D7B40A /* FieldTransformers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldTransformers.swift; sourceTree = "<group>"; };
-		7FE56CAE1FA0B0BF00D7B40A /* TrimFieldTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrimFieldTransformer.swift; sourceTree = "<group>"; };
-		7FE56CAF1FA0B0BF00D7B40A /* EmptyIsNilFieldTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyIsNilFieldTransformer.swift; sourceTree = "<group>"; };
-		7FE56CB01FA0B0BF00D7B40A /* FormError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormError.swift; sourceTree = "<group>"; };
-		7FE56CB11FA0B0BF00D7B40A /* Form.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
-		7FE56CB21FA0B0BF00D7B40A /* FormTextFieldDelegateChainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTextFieldDelegateChainable.swift; sourceTree = "<group>"; };
-		7FE56CB51FA0B0BF00D7B40A /* FieldValidators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldValidators.swift; sourceTree = "<group>"; };
-		7FE56CB61FA0B0BF00D7B40A /* LengthFieldValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LengthFieldValidator.swift; sourceTree = "<group>"; };
-		7FE56CB71FA0B0BF00D7B40A /* ValidatorError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatorError.swift; sourceTree = "<group>"; };
-		7FE56CB81FA0B0BF00D7B40A /* EmailFieldValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailFieldValidator.swift; sourceTree = "<group>"; };
-		7FE56CB91FA0B0BF00D7B40A /* FieldValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldValidator.swift; sourceTree = "<group>"; };
-		7FE56CBA1FA0B0BF00D7B40A /* RequiredFieldValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequiredFieldValidator.swift; sourceTree = "<group>"; };
 		A3169DB01DE05E8300BABAFD /* Roadblock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Roadblock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169DB91DE05E8300BABAFD /* RoadblockTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RoadblockTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169DCC1DE0629100BABAFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,7 +78,20 @@
 		A3169DF71DE0718900BABAFD /* RoadblockTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RoadblockTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169E0C1DE072C700BABAFD /* Roadblock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Roadblock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169E141DE072C800BABAFD /* RoadblockTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RoadblockTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3169E751DE083D900BABAFD /* Roadblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Roadblock.h; sourceTree = "<group>"; };
+		A370DEDB1FB0D6E9000FEDED /* FieldTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldTransformer.swift; sourceTree = "<group>"; };
+		A370DEDC1FB0D6E9000FEDED /* FieldTransformers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldTransformers.swift; sourceTree = "<group>"; };
+		A370DEDD1FB0D6E9000FEDED /* TrimFieldTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrimFieldTransformer.swift; sourceTree = "<group>"; };
+		A370DEDE1FB0D6E9000FEDED /* EmptyIsNilFieldTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyIsNilFieldTransformer.swift; sourceTree = "<group>"; };
+		A370DEDF1FB0D6E9000FEDED /* FormError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormError.swift; sourceTree = "<group>"; };
+		A370DEE01FB0D6E9000FEDED /* Form.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		A370DEE21FB0D6E9000FEDED /* FieldValidators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldValidators.swift; sourceTree = "<group>"; };
+		A370DEE31FB0D6E9000FEDED /* LengthFieldValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LengthFieldValidator.swift; sourceTree = "<group>"; };
+		A370DEE41FB0D6E9000FEDED /* ValidatorError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatorError.swift; sourceTree = "<group>"; };
+		A370DEE51FB0D6E9000FEDED /* EmailFieldValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailFieldValidator.swift; sourceTree = "<group>"; };
+		A370DEE61FB0D6E9000FEDED /* FieldValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldValidator.swift; sourceTree = "<group>"; };
+		A370DEE71FB0D6E9000FEDED /* RequiredFieldValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequiredFieldValidator.swift; sourceTree = "<group>"; };
+		A370DEE81FB0D6E9000FEDED /* FormTextFieldDelegateChainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTextFieldDelegateChainable.swift; sourceTree = "<group>"; };
+		A370DEE91FB0D6E9000FEDED /* Roadblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Roadblock.h; sourceTree = "<group>"; };
 		A38EF2C71DECF97000637484 /* RoadblockTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoadblockTests.swift; sourceTree = "<group>"; };
 		B03E9F024991E148BB06E498 /* Pods-Frameworks-Roadblock-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-Roadblock-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-Roadblock-iOS/Pods-Frameworks-Roadblock-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		B4589136C0F0314736A7DC29 /* Pods_Frameworks_Roadblock_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frameworks_Roadblock_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,30 +150,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7FE56CAB1FA0B0BF00D7B40A /* Transformers */ = {
-			isa = PBXGroup;
-			children = (
-				7FE56CAC1FA0B0BF00D7B40A /* FieldTransformer.swift */,
-				7FE56CAD1FA0B0BF00D7B40A /* FieldTransformers.swift */,
-				7FE56CAE1FA0B0BF00D7B40A /* TrimFieldTransformer.swift */,
-				7FE56CAF1FA0B0BF00D7B40A /* EmptyIsNilFieldTransformer.swift */,
-			);
-			path = Transformers;
-			sourceTree = "<group>";
-		};
-		7FE56CB41FA0B0BF00D7B40A /* Validators */ = {
-			isa = PBXGroup;
-			children = (
-				7FE56CB51FA0B0BF00D7B40A /* FieldValidators.swift */,
-				7FE56CB61FA0B0BF00D7B40A /* LengthFieldValidator.swift */,
-				7FE56CB71FA0B0BF00D7B40A /* ValidatorError.swift */,
-				7FE56CB81FA0B0BF00D7B40A /* EmailFieldValidator.swift */,
-				7FE56CB91FA0B0BF00D7B40A /* FieldValidator.swift */,
-				7FE56CBA1FA0B0BF00D7B40A /* RequiredFieldValidator.swift */,
-			);
-			path = Validators;
-			sourceTree = "<group>";
-		};
 		8B4853AB18BEFEC0DB121EC5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,12 +193,7 @@
 		A3169DCA1DE0629100BABAFD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				7FE56CB11FA0B0BF00D7B40A /* Form.swift */,
-				7FE56CB01FA0B0BF00D7B40A /* FormError.swift */,
-				7FE56CB21FA0B0BF00D7B40A /* FormTextFieldDelegateChainable.swift */,
-				7FE56CAB1FA0B0BF00D7B40A /* Transformers */,
-				7FE56CB41FA0B0BF00D7B40A /* Validators */,
-				A3169E751DE083D900BABAFD /* Roadblock.h */,
+				A370DED91FB0D6E9000FEDED /* Roadblock */,
 				A3169DCC1DE0629100BABAFD /* Info.plist */,
 			);
 			path = Sources;
@@ -235,6 +206,43 @@
 				A3169DD11DE062A000BABAFD /* Info.plist */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		A370DED91FB0D6E9000FEDED /* Roadblock */ = {
+			isa = PBXGroup;
+			children = (
+				A370DEDA1FB0D6E9000FEDED /* Transformers */,
+				A370DEDF1FB0D6E9000FEDED /* FormError.swift */,
+				A370DEE01FB0D6E9000FEDED /* Form.swift */,
+				A370DEE11FB0D6E9000FEDED /* Validators */,
+				A370DEE81FB0D6E9000FEDED /* FormTextFieldDelegateChainable.swift */,
+				A370DEE91FB0D6E9000FEDED /* Roadblock.h */,
+			);
+			path = Roadblock;
+			sourceTree = "<group>";
+		};
+		A370DEDA1FB0D6E9000FEDED /* Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				A370DEDB1FB0D6E9000FEDED /* FieldTransformer.swift */,
+				A370DEDC1FB0D6E9000FEDED /* FieldTransformers.swift */,
+				A370DEDD1FB0D6E9000FEDED /* TrimFieldTransformer.swift */,
+				A370DEDE1FB0D6E9000FEDED /* EmptyIsNilFieldTransformer.swift */,
+			);
+			path = Transformers;
+			sourceTree = "<group>";
+		};
+		A370DEE11FB0D6E9000FEDED /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				A370DEE21FB0D6E9000FEDED /* FieldValidators.swift */,
+				A370DEE31FB0D6E9000FEDED /* LengthFieldValidator.swift */,
+				A370DEE41FB0D6E9000FEDED /* ValidatorError.swift */,
+				A370DEE51FB0D6E9000FEDED /* EmailFieldValidator.swift */,
+				A370DEE61FB0D6E9000FEDED /* FieldValidator.swift */,
+				A370DEE71FB0D6E9000FEDED /* RequiredFieldValidator.swift */,
+			);
+			path = Validators;
 			sourceTree = "<group>";
 		};
 		A38EF2C61DECF97000637484 /* RoadblockTests */ = {
@@ -252,7 +260,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E781DE083D900BABAFD /* Roadblock.h in Headers */,
+				A370DF051FB0D6E9000FEDED /* Roadblock.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +268,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E761DE083D900BABAFD /* Roadblock.h in Headers */,
+				A370DF041FB0D6E9000FEDED /* Roadblock.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,19 +649,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FE56CBE1FA0B0BF00D7B40A /* EmptyIsNilFieldTransformer.swift in Sources */,
-				7FE56CC31FA0B0BF00D7B40A /* FieldValidators.swift in Sources */,
-				7FE56CC61FA0B0BF00D7B40A /* EmailFieldValidator.swift in Sources */,
-				7FE56CBD1FA0B0BF00D7B40A /* TrimFieldTransformer.swift in Sources */,
-				7FE56CC11FA0B0BF00D7B40A /* FormTextFieldDelegateChainable.swift in Sources */,
-				7FE56CBC1FA0B0BF00D7B40A /* FieldTransformers.swift in Sources */,
-				7FE56CC41FA0B0BF00D7B40A /* LengthFieldValidator.swift in Sources */,
-				7FE56CBF1FA0B0BF00D7B40A /* FormError.swift in Sources */,
-				7FE56CC51FA0B0BF00D7B40A /* ValidatorError.swift in Sources */,
-				7FE56CBB1FA0B0BF00D7B40A /* FieldTransformer.swift in Sources */,
-				7FE56CC01FA0B0BF00D7B40A /* Form.swift in Sources */,
-				7FE56CC81FA0B0BF00D7B40A /* RequiredFieldValidator.swift in Sources */,
-				7FE56CC71FA0B0BF00D7B40A /* FieldValidator.swift in Sources */,
+				A370DEF01FB0D6E9000FEDED /* EmptyIsNilFieldTransformer.swift in Sources */,
+				A370DEF81FB0D6E9000FEDED /* LengthFieldValidator.swift in Sources */,
+				A370DEEE1FB0D6E9000FEDED /* TrimFieldTransformer.swift in Sources */,
+				A370DEEC1FB0D6E9000FEDED /* FieldTransformers.swift in Sources */,
+				A370DEFA1FB0D6E9000FEDED /* ValidatorError.swift in Sources */,
+				A370DEF61FB0D6E9000FEDED /* FieldValidators.swift in Sources */,
+				A370DF001FB0D6E9000FEDED /* RequiredFieldValidator.swift in Sources */,
+				A370DEF21FB0D6E9000FEDED /* FormError.swift in Sources */,
+				A370DF021FB0D6E9000FEDED /* FormTextFieldDelegateChainable.swift in Sources */,
+				A370DEEA1FB0D6E9000FEDED /* FieldTransformer.swift in Sources */,
+				A370DEFC1FB0D6E9000FEDED /* EmailFieldValidator.swift in Sources */,
+				A370DEFE1FB0D6E9000FEDED /* FieldValidator.swift in Sources */,
+				A370DEF41FB0D6E9000FEDED /* Form.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,19 +677,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F2BC6091FA0B2A3009BD39A /* EmptyIsNilFieldTransformer.swift in Sources */,
-				7F2BC60A1FA0B2A3009BD39A /* FieldValidators.swift in Sources */,
-				7F2BC60D1FA0B2A3009BD39A /* EmailFieldValidator.swift in Sources */,
-				7F2BC6031FA0B2A3009BD39A /* FormError.swift in Sources */,
-				7F2BC6041FA0B2A3009BD39A /* FormTextFieldDelegateChainable.swift in Sources */,
-				7F2BC6071FA0B2A3009BD39A /* FieldTransformers.swift in Sources */,
-				7F2BC60B1FA0B2A3009BD39A /* LengthFieldValidator.swift in Sources */,
-				7F2BC6081FA0B2A3009BD39A /* TrimFieldTransformer.swift in Sources */,
-				7F2BC60C1FA0B2A3009BD39A /* ValidatorError.swift in Sources */,
-				7F2BC6061FA0B2A3009BD39A /* FieldTransformer.swift in Sources */,
-				7F2BC6021FA0B296009BD39A /* Form.swift in Sources */,
-				7F2BC60F1FA0B2A3009BD39A /* RequiredFieldValidator.swift in Sources */,
-				7F2BC60E1FA0B2A3009BD39A /* FieldValidator.swift in Sources */,
+				A370DEF11FB0D6E9000FEDED /* EmptyIsNilFieldTransformer.swift in Sources */,
+				A370DEF91FB0D6E9000FEDED /* LengthFieldValidator.swift in Sources */,
+				A370DEEF1FB0D6E9000FEDED /* TrimFieldTransformer.swift in Sources */,
+				A370DEED1FB0D6E9000FEDED /* FieldTransformers.swift in Sources */,
+				A370DEFB1FB0D6E9000FEDED /* ValidatorError.swift in Sources */,
+				A370DEF71FB0D6E9000FEDED /* FieldValidators.swift in Sources */,
+				A370DF011FB0D6E9000FEDED /* RequiredFieldValidator.swift in Sources */,
+				A370DEF31FB0D6E9000FEDED /* FormError.swift in Sources */,
+				A370DF031FB0D6E9000FEDED /* FormTextFieldDelegateChainable.swift in Sources */,
+				A370DEEB1FB0D6E9000FEDED /* FieldTransformer.swift in Sources */,
+				A370DEFD1FB0D6E9000FEDED /* EmailFieldValidator.swift in Sources */,
+				A370DEFF1FB0D6E9000FEDED /* FieldValidator.swift in Sources */,
+				A370DEF51FB0D6E9000FEDED /* Form.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -867,7 +875,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C70BE262DB2445B7A596A049 /* Pods-Tests-RoadblockTests-iOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -881,7 +888,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 46621233970BDC0ECDE2CB21 /* Pods-Tests-RoadblockTests-iOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -940,7 +946,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 106D60052A8776331EAE59FF /* Pods-Tests-RoadblockTests-tvOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -956,7 +961,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE59D11580AA877042A2CA61 /* Pods-Tests-RoadblockTests-tvOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
