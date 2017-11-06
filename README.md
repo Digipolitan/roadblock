@@ -1,9 +1,10 @@
 Roadblock
 =================================
 
+[![Swift Version](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![Build Status](https://travis-ci.org/Digipolitan/roadblock.svg?branch=master)](https://travis-ci.org/Digipolitan/roadblock)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Roadblock.svg)](https://img.shields.io/cocoapods/v/Roadblock.svg)
-[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Carthage Compatible](https://img.shields.io/badge/carthage-compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Platform](https://img.shields.io/cocoapods/p/Roadblock.svg?style=flat)](http://cocoadocs.org/docsets/Roadblock)
 [![Twitter](https://img.shields.io/badge/twitter-@Digipolitan-blue.svg?style=flat)](http://twitter.com/Digipolitan)
 
@@ -17,11 +18,30 @@ To install Roadblock with CocoaPods, add the following lines to your `Podfile`.
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '8.0' # or platform :osx, '10.10' if your target is OS X.
+platform :ios, '9.0'
 use_frameworks!
 
 pod 'Roadblock'
 ```
+
+### Carthage
+
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
+
+You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
+
+```bash
+$ brew update
+$ brew install carthage
+```
+
+To integrate Roadblock into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```
+github 'Digipolitan/roadblock' ~> 1.0
+```
+
+Run `carthage update` to build the framework and drag the built `Roadblock.framework` into your Xcode project.
 
 ## The Basics
 
@@ -77,7 +97,7 @@ override func viewDidLoad() {
 }
 ```
 
-Then you can handle the forms erros on youre `@IBAction` function
+Then you can handle the forms errors on youre `@IBAction` function
 
 ```swift
 @IBAction func validateButtonClicked() {
