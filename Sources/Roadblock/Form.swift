@@ -17,8 +17,9 @@ public protocol FormDelegate: class {
 public class Form {
 
     public fileprivate(set) var fields: [FormField]
-
+    // swiftlint:disable weak_delegate
     public weak var delegate: FormDelegate?
+    // swiftlint:enable weak_delegate
 
     public init(fields: [FormField], delegate: FormDelegate? = nil) {
         self.fields = fields

@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  RoadblockSample-iOS
+
+  Created by David Linhares on 25/10/2017.
+  Copyright © 2017 Digipolitan. All rights reserved.
+*/
+
+"errors.validator.required" = "Missing required field";
+"errors.validator.email" = "Invalid email";
+"errors.validator.min_length" = "Minimum %1$d characters";
+"errors.validator.max_length" = "Maximum de %1$d characters";
