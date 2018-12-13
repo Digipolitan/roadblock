@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = "Roadblock"
-s.version = "1.0.1"
+s.version = "1.0.2"
 s.summary = "Roadblock is a simple way to check forms verifications"
 s.homepage = "https://github.com/Digipolitan/roadblock"
 s.authors = "Digipolitan"
