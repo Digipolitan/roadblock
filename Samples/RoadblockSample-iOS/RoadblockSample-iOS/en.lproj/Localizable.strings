@@ -10,4 +10,3 @@
 "errors.validator.email" = "Invalid email";
 "errors.validator.min_length" = "Minimum %1$d characters";
 "errors.validator.max_length" = "Maximum de %1$d characters";
-

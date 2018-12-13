@@ -1,7 +1,7 @@
 Roadblock
 =================================
 
-[![Swift Version](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift Version](https://img.shields.io/badge/swift-4.2-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![Build Status](https://travis-ci.org/Digipolitan/roadblock.svg?branch=master)](https://travis-ci.org/Digipolitan/roadblock)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Roadblock.svg)](https://img.shields.io/cocoapods/v/Roadblock.svg)
 [![Carthage Compatible](https://img.shields.io/badge/carthage-compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)

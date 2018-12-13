@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.0.2](https://github.com/Digipolitan/roadblock/releases/tag/v1.0.2)
+
+update swift version
+---
+
 ## [1.0.1](https://github.com/Digipolitan/roadblock/releases/tag/v1.0.1)
 
 update readme
